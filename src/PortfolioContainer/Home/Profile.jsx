@@ -45,7 +45,7 @@ const Profile = () => {
 								</div>
 							</div>
 							<div className="profile-options">
-								<a href="#contact" className="btn primary-btn menu-btn">ContactMe</a>
+								<a href="#contact" style={{display:"inline-block"}} className="btn primary-btn menu-btn">ContactMe</a>
 								<a href="resume.pdf" download="Nishant resume.pdf">
 									<button className='btn highlighted-btn'>Get Resume</button>
 								</a>
