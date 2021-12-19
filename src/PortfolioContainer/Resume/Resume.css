@@ -1,0 +1,260 @@
+#resume{
+	width: 100%;
+	height: auto;
+	margin: 4.6rem 0;
+}
+.carosolContainer{
+	display: flex;
+	margin-top:3rem;
+	overflow: hidden;
+	width: 100%;
+	height: 80%;
+	background-color: var(--resumeCardBg);
+}
+.bullets-container{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.resume-bullets {
+	padding-right:0.5rem;
+	margin-right: 10px;
+	box-shadow: 10px 0px 9px -8px rgba(22, 22, 22, 0.849);
+}
+.bullet-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.bullet-icons {
+    width: 50px;
+    height: 100%;
+    z-index: 1;
+    background-color: var(--resumeBulletBg);
+    position: absolute;
+	color: var(--bgColor);
+}
+.bullets {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.bullet {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--resumeBulletBg);
+    height: 45px;
+    margin: 15px 0;
+    padding: 0 15px;
+    border-radius: 25px;
+    width:0%;
+    transition: width .6s ease;
+	color:var(--textClr);
+	
+}
+.bullet-logo {
+	color: var(--bgColor);
+	height: 16px;
+    margin: 0 30px 0 0;
+}
+.bullets p {
+    font-family: "Poppins SemiBold";
+    white-space: nowrap;
+	font-size: 18px;
+	margin: 0 30px 0 0;
+}
+.animatedRowStyle{
+	color: var(--bgColor)!important;
+	width: 100%;
+}
+
+.bullets-details{
+	transition: all 1s ease-out;
+}
+.bullets-details-Container{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 25rem;
+	overflow: hidden;
+	color: var(--textClr);
+}
+.education-container,.projects-container,.workHistory-container,.programingSkill-container,.interests-container{
+	padding: 20px 20px;
+	width: 100%;
+	height: 25rem;
+}
+.education-block{
+	display: flex;
+	justify-content: space-between;
+	margin:1.5rem 0;
+}
+.education-block .headings .primaryPara{
+	color: var(--dark-orange);
+	font-weight: 700;
+	font-size: 1.1rem;
+	letter-spacing: 0.3px;
+}
+.education-block .headings .primaryPara:before{
+	content:"🔴";
+	margin-right: 15px;
+	font-size:1rem;;
+	color: var(--dark-orange);	
+}
+.education-block .headings .secondaryPara{
+    margin-left: 42px;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: .9rem;
+}
+.yearBtn{
+	background-color: var(--dark-orange);
+	width: auto;
+	height: 2rem;
+	padding: 4px 14px;
+	color: #fff;
+	border-radius: 20px;
+	font-weight: 400;
+}
+.workHistoryParas{
+	margin-left: 42px;
+	font-size: 0.9rem;
+}
+.programingSkill-blocks-div {
+	display: flex;
+}
+.programingSkill-blocks-div .skillBlock {
+	width: 15rem;
+	margin: 16px 30px;
+}
+.interests-container .headings .primaryPara{
+	line-height: 0rem;
+}
+.interests-container .headings .secondaryPara{
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+}
+
+/* ---------- Responsiveness --------------- */
+
+@media screen and (max-width:1500px) {
+	.thiredPara{
+		visibility: hidden;
+	}
+	.carosolContainer{
+		flex-direction: column;
+	}
+	.workHistoryParas{
+		font-size: 0.8rem;
+		line-height: 1.1rem;
+		margin: 0!important;
+		margin-left: 66px;
+	}
+	.education-block{
+		margin:0.6rem 0;
+	}
+	.education-block .headings .secondaryPara{
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width:890px) {
+	.education-block .headings .primaryPara{
+		color: var(--dark-orange);
+		font-weight: 700;
+		font-size: 0.8rem;
+		letter-spacing: 0.2px;
+		line-height: 0;
+	}
+	.education-block .headings .secondaryPara{
+		margin-left: 40px;
+		font-size: 0.6rem;
+		font-weight: 700;
+		line-height: 0.8rem;
+	}
+	.yearBtn{
+		background-color: var(--dark-orange);
+		height: 1.3rem;
+		padding: 6px 14px;
+		color: #fff;
+		border-radius: 20px;
+		font-weight: 400;
+		font-size: 0.5rem;
+		width: 4rem;
+		margin-left: auto;
+	}
+	.workHistoryParas{
+		font-size: 0.61rem;
+		line-height: 0.8rem;
+		margin: 0!important;
+		margin-left: 66px;
+	}
+    .education-block{
+	    flex-direction: column;
+		margin:0;
+    }
+	.education-block .headings .primaryPara:before{
+		font-size:0.8rem;
+	}
+	.programingSkill-blocks-div .skillBlock {
+		width: 10rem;
+		margin: 8px 10px;
+	}
+	.bullets p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:400px){
+
+	.education-block .headings .primaryPara{
+		font-size: 0.7rem;
+		line-height: 0;
+	}
+	.education-block .headings .secondaryPara{
+		margin-left: 40px;
+		font-size: 0.6rem;
+		font-weight: 700;
+		line-height: 0.9rem;
+	}
+	.yearBtn{
+		background-color: var(--dark-orange);
+		height: 1.3rem;
+		padding: 6px 14px;
+		color: #fff;
+		border-radius: 20px;
+		font-weight: 400;
+		font-size: 0.5rem;
+		width: 4rem;
+		margin-left: auto;
+	}
+	.workHistoryParas{
+		font-size: 0.61rem;
+		line-height: 0.7rem;
+		margin: 0!important;
+		margin-left: 66px;
+	}
+	.programingSkill-blocks-div .skillBlock {
+		width: 10rem;
+		margin: 8px 10px;
+	}
+	.education-block .headings .primaryPara:before{
+		font-size:0.8rem;
+	}
+}
+@media (max-width:330px){
+	.programingSkill-blocks-div {
+		flex-direction: column;
+		height: 100px;
+		overflow: hidden;
+		justify-content: center;
+		line-height: 0!important;
+	}	
+	.programingSkill-blocks-div .progress {
+		opacity: 0;
+	}
+}

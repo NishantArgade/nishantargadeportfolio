@@ -1,0 +1,45 @@
+#home{
+	width: 100%;
+	height: auto;
+}
+
+.dark-mode{
+	/* --profileBg: #1f2235 ; */
+	
+	--bgColor: #111 ;
+	--navbarBg:#2e6b7e ;
+    --profileBg:linear-gradient(#2e6b7e , #2c4b55);
+	--profileFooterCurveBg:#2c4b55;
+	--menuBg:#1f2235;
+	--carouselCardBg:#385c69;
+	--aboutMeCardBg:#2c4b55;
+	--resumeCardBg:#2c4b55;
+	--resumeBulletBg:#1abc9c;
+	--contactCardLeftBg:#2c4b55;
+    --footerBg:#232c2e;
+	--copyrightBg:#181f20;
+	
+	--mainContainerHeading:#fff;
+	--footerCurveDownClr:#111;
+	--modeIconClr:rgb(243, 243, 131);
+	--navBrandClr:#ffff;
+	--navLinkClr:#ffff;
+	--socialMediaIconClr:rgb(217, 223, 223);
+	--primaryTextClr:#fff;
+	--profilePicShadowClr:#fff;
+    --profileDescription:#fff;
+	--typicalTextClr:#c8f3ea;
+	--textClr:#fff;
+	--footerTextClr:rgb(192, 190, 190);
+	--highlightedTextClr:#25dfba;
+	--brandNameClr:#25dfba;
+	--hoverLinkClr:#25dfba;
+	--boxShadow:"none";
+	--container-subHeadingClr:rgb(158, 156, 156);
+	
+	
+}
+
+#root{
+	background-color: var(--bgColor);
+}

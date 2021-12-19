@@ -1,0 +1,19 @@
+.curveDiv{
+    max-height: 20vh;
+    height: 20vh;
+}
+.custom-shape-divider-bottom-1639105255 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: var(--profileFooterCurveBg);
+}
+.custom-shape-divider-bottom-1639105255 svg {
+    height: 20vh;
+    position: relative;
+    display: block;
+    width: calc(141% + 1.3px);
+}
+.custom-shape-divider-bottom-1639105255 .shape-fill {
+    fill: var(--footerCurveDownClr);
+}
