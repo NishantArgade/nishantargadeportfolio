@@ -36,7 +36,7 @@ const SlidingContent = (props) => {
 							<p className='primaryPara'>Microsoft</p>
 							<p className='secondaryPara' >FULL STACK DEVELOPER INTERN</p>
 						</div>
-						<p className='yearBtn'>2021-present</p>
+						<p className='yearBtn'>2021-pres</p>
 					</div>
 					<div className='workHistoryParas'>
 						<p>Currently working as MERN stack web and Full stack Developer</p>
@@ -115,7 +115,6 @@ const SlidingContent = (props) => {
 						<div className='headings'>
 							<p className='primaryPara'>Personal Portfolio Website</p>
 							<p className='secondaryPara' >Technologies Used: ReactJS, Bootstrap</p>
-							<p className='thiredPara' style={{ fontSize: "15px",lineHeight:"0",marginLeft:"2.4rem" }} >A Personal Portfolio  website to showcase all my details and projects at one piace.</p>
 						</div>
 						<p className='yearBtn'>2021-22</p>
 					</div>
@@ -123,7 +122,6 @@ const SlidingContent = (props) => {
 						<div className='headings'>
 							<p className='primaryPara'>E-Shop Website</p>
 							<p className='secondaryPara' >Technologies Used: MongoDB, Express, NodeJs, Redux, ReactJS, Bootstrap, scss.</p>
-							<p className='thiredPara' style={{ fontSize: "15px",lineHeight:"0",marginLeft:"2.4rem" }} >An ecommerce application designed to sell products online with payment system integration.</p>
 						</div>
 						<p className='yearBtn'>2021-22</p>
 					</div>
@@ -131,7 +129,6 @@ const SlidingContent = (props) => {
 						<div className='headings'>
 							<p className='primaryPara'>Ecommerce Website</p>
 							<p className='secondaryPara' >Technologies Used: MongoDB, Express, NodeJs, Redux, ReactJS, Bootstrap, scss.</p>
-							<p className='thiredPara' style={{ fontSize: "15px" ,lineHeight:"0",marginLeft:"2.4rem"}} >Online ecommerce website for showing and selling products online with payment system integration both paypal and upi.</p>
 						</div>
 						<p className='yearBtn'>2022-23</p>
 					</div>
