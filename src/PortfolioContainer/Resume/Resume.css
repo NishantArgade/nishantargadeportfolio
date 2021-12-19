@@ -20,6 +20,7 @@
 	padding-right:0.5rem;
 	margin-right: 10px;
 	box-shadow: 10px 0px 9px -8px rgba(22, 22, 22, 0.849);
+	width: 40%;
 }
 .bullet-container {
     display: flex;
@@ -160,6 +161,9 @@
 	}
 	.education-block .headings .secondaryPara{
 		font-size: 0.8rem;
+	}
+	.resume-bullets{
+		width: 98%;
 	}
 }
 
