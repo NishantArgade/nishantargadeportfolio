@@ -1,7 +1,7 @@
 #about{
     width: 100%;
     height: auto;
-	margin-bottom: 4.6rem;
+	margin-bottom: 4rem;
 }
 #about p,#about li,#about h6{
 	color: var(--textClr);

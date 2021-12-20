@@ -117,7 +117,7 @@
 }
 .yearBtn{
 	background-color: var(--dark-orange);
-	width: auto;
+	width: 6rem;
 	height: 1.7rem;
 	padding: 4px 14px;
 	color: #fff;
@@ -209,7 +209,7 @@
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 0.5rem;
-		width: 4rem;
+		width: 5rem;
 		margin-left: auto;
 	}
 	.workHistoryParas{

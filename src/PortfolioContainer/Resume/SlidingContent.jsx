@@ -116,21 +116,21 @@ const SlidingContent = (props) => {
 							<p className='primaryPara'>Personal Portfolio Website</p>
 							<p className='secondaryPara' >Technologies Used: ReactJS, Bootstrap</p>
 						</div>
-						<p className='yearBtn'>2021-22</p>
+						<p className='yearBtn'>2021-2022</p>
 					</div>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>E-Shop Website</p>
 							<p className='secondaryPara' >Technologies Used: MongoDB, Express, NodeJs, Redux, ReactJS, Bootstrap, scss.</p>
 						</div>
-						<p className='yearBtn'>2021-22</p>
+						<p className='yearBtn'>2021-2022</p>
 					</div>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>Ecommerce Website</p>
 							<p className='secondaryPara' >Technologies Used: MongoDB, Express, NodeJs, Redux, ReactJS, Bootstrap, scss.</p>
 						</div>
-						<p className='yearBtn'>2022-23</p>
+						<p className='yearBtn'>2022-2023</p>
 					</div>
 				</div>
 
