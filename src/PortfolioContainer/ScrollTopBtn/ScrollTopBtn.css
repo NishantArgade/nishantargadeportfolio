@@ -1,7 +1,7 @@
 #scrollBtn {
 	position: fixed;
 	bottom: 1.8rem;
-	right: 1.7rem;
+	right: 1.8rem;
 	z-index: 10000;
 	font-size: 18px;
 	border: none;
@@ -10,8 +10,8 @@
 	cursor: pointer;
 	padding: 15px;
 	
-	width: 2.4rem;
-	height: 2.4rem;
+	width: 2.5rem;
+	height: 2.5rem;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;

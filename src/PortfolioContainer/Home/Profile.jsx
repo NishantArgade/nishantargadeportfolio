@@ -11,9 +11,9 @@ const Profile = () => {
 						<div className="profile-details">
 							<div className="social-media-icons ">
 								<a href="https://www.facebook.com/nishant.argade.14" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
-								<a href="https://www.linkedin.com/in/nishant-argade-9058ab1a5/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+								<a href="https://bit.ly/3eatAPK" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp-square"></i></a>
 								<a href="https://www.instagram.com/nishant.argade/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
-								<a href="https://www.youtube.com/channel/UCg3KKuCp6ID1l9BPxRJmUng" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube-square"></i></a>
+								<a href="https://www.linkedin.com/in/nishant-argade-9058ab1a5/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
 							</div>
 							<div className="profile-details-name">
 								<div className="primary-text">
@@ -45,17 +45,19 @@ const Profile = () => {
 								</div>
 							</div>
 							<div className="profile-options">
-								<a href="#contact" style={{display:"inline-block"}} className="btn primary-btn menu-btn">ContactMe</a>
+								<a href="#contact" style={{ display: "inline-block" }} className="btn primary-btn menu-btn">ContactMe</a>
 								<a href="resume.pdf" download="Nishant resume.pdf">
 									<button className='btn highlighted-btn'>Get Resume</button>
 								</a>
 							</div>
 						</div>
-						<div className="profile-picture">
-							<div className="profile-picture-background">
+						<a href="#about">
+							<div className="profile-picture">
+								<div className="profile-picture-background" >
 
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

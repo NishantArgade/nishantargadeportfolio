@@ -76,15 +76,15 @@ const Contact = () => {
 									<div className="info">
 										<div className="information">
 											<i className="fas fa-map-marked-alt icon" ></i>
-											<p>pune,india</p>
+											<a  href='https://goo.gl/maps/6zj5w5pA7seZLqN47' target="_blank" rel="noreferrer">Kalus,Pune Maharashtra</a>
 										</div>
 										<div className="information">
 											<i className="fas fa-envelope icon" ></i>
-											<p>nishantargade4579@gmail.com</p>
+											<a href='mailto:nishantargade4579@gmail.com'>nishantargade4579@gmail.com</a>
 										</div>
 										<div className="information">
 											<i className="fas fa-phone-square-alt icon"></i>
-											<p>91+8007896396</p>
+											<a href='tel:+918007896396'>+918007896396</a>
 										</div>
 									</div>
 									<div className="social-media">
@@ -94,7 +94,7 @@ const Contact = () => {
 												<a href='https://www.facebook.com/nishant.argade.14' target="_blank" rel="noreferrer"><i className='fab fa-facebook'></i></a>
 											</div>
 											<div className="social-icon">
-												<a href='https://www.youtube.com/channel/UCg3KKuCp6ID1l9BPxRJmUng' target="_blank" rel="noreferrer"><i className="fab fa-youtube-square"></i></a>
+												<a href='https://bit.ly/3eatAPK' target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
 											</div>
 											<div className="social-icon">
 												<a href='https://www.instagram.com/nishant.argade/' target="_blank" rel="noreferrer"><i className='fab fa-instagram'></i></a>

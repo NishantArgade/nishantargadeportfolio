@@ -10,6 +10,7 @@
 	width: 100%;
 	height: 80%;
 	background-color: var(--resumeCardBg);
+	border-radius: 25px;
 }
 .bullets-container{
 	display: flex;
@@ -36,6 +37,7 @@
     background-color: var(--resumeBulletBg);
     position: absolute;
 	color: var(--bgColor);
+	border-radius: 0 0 0 25px;
 }
 .bullets {
     width: 100%;
@@ -86,7 +88,7 @@
 	color: var(--textClr);
 }
 .education-container,.projects-container,.workHistory-container,.programingSkill-container,.interests-container{
-	padding: 20px 20px;
+	padding: 20px 10px;
 	width: 100%;
 	height: 25rem;
 }
@@ -116,11 +118,12 @@
 .yearBtn{
 	background-color: var(--dark-orange);
 	width: auto;
-	height: 2rem;
+	height: 1.7rem;
 	padding: 4px 14px;
 	color: #fff;
 	border-radius: 20px;
 	font-weight: 400;
+	font-size: 0.8rem;
 }
 .workHistoryParas{
 	margin-left: 42px;
@@ -149,6 +152,7 @@
 	}
 	.carosolContainer{
 		flex-direction: column;
+		height: 42.5rem;
 	}
 	.workHistoryParas{
 		font-size: 0.8rem;
@@ -157,13 +161,29 @@
 		margin-left: 66px;
 	}
 	.education-block{
-		margin:0.6rem 0;
+		margin: 0;
 	}
 	.education-block .headings .secondaryPara{
 		font-size: 0.8rem;
 	}
 	.resume-bullets{
 		width: 98%;
+	}
+	.education-container{
+		height: 28rem;
+	}
+	.bullets-details{
+		margin-top: 2rem;
+	}
+	.education-container{
+		padding: 20px 10px;
+	}
+	.yearBtn{
+		width: 6rem;
+	}
+	.education-container,.projects-container,.workHistory-container,.programingSkill-container,.interests-container{
+		/* padding: 20px 10px; */
+		height: 25rem; 
 	}
 }
 
@@ -199,8 +219,8 @@
 		margin-left: 66px;
 	}
     .education-block{
-	    flex-direction: column;
-		margin:0;
+		flex-direction: column;
+		margin: 0 !important;
     }
 	.education-block .headings .primaryPara:before{
 		font-size:0.8rem;

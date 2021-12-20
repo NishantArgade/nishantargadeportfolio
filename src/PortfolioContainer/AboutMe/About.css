@@ -52,6 +52,7 @@
 	flex-direction: column;
 	padding: 1.8rem ;
 	background-color: var(--aboutMeCardBg);
+	border-radius: 25px;
 }
 .aboutMe-options .primary-btn,  .aboutMe-options .highlighted-btn{
 	width: 100% !important;

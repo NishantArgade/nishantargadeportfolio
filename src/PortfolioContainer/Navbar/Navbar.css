@@ -62,7 +62,7 @@
 }
 .modeBtn{
   position: relative;
-
+   font-size: 1.1rem;
   right: 30px;
   color: var(--modeIconClr);
 }

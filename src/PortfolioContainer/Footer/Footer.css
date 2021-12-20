@@ -104,6 +104,12 @@ footer .Container .sec.aboutus p{
 .contact .info{
 	position: relative;
 }
+.contact .info a{
+	text-decoration: none;
+}
+.contact .info a:hover{
+ color: #fff;	
+}
 .contact .info li{
 	display: flex;
 	margin-bottom: 16px;
