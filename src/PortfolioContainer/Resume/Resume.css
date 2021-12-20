@@ -117,7 +117,7 @@
 }
 .yearBtn{
 	background-color: var(--dark-orange);
-	width: 6rem;
+	width: 6.2rem;
 	height: 1.7rem;
 	padding: 4px 14px;
 	color: #fff;
@@ -152,7 +152,7 @@
 	}
 	.carosolContainer{
 		flex-direction: column;
-		height: 42.5rem;
+		height: 42rem;
 	}
 	.workHistoryParas{
 		font-size: 0.8rem;
@@ -179,12 +179,15 @@
 		padding: 20px 10px;
 	}
 	.yearBtn{
-		width: 6rem;
+		width: 6.2rem;
 	}
 	.education-container,.projects-container,.workHistory-container,.programingSkill-container,.interests-container{
-		/* padding: 20px 10px; */
 		height: 25rem; 
 	}
+	.bullets-details-Container{
+		height: 150rem;
+	}
+	
 }
 
 @media screen and (max-width:890px) {
@@ -209,7 +212,7 @@
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 0.5rem;
-		width: 5rem;
+		width: 5.2rem;
 		margin-left: auto;
 	}
 	.workHistoryParas{
@@ -253,7 +256,7 @@
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 0.5rem;
-		width: 4rem;
+		width: 4.2rem;
 		margin-left: auto;
 	}
 	.workHistoryParas{
