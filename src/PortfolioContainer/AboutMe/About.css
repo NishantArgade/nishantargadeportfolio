@@ -52,7 +52,7 @@
 	flex-direction: column;
 	padding: 1.8rem ;
 	background-color: var(--aboutMeCardBg);
-	border-radius: 25px;
+	border-radius: 0 25px 25px 0;
 }
 .aboutMe-options .primary-btn,  .aboutMe-options .highlighted-btn{
 	width: 100% !important;
@@ -73,12 +73,15 @@
 	}
 	.textContent{
 		padding: 2rem;
+		border-radius: 25px;
 	}
 }
 @media screen and (max-width:416px){
 
     .textContent{
        padding: 2rem 1rem;
+	   border-radius: 25px;
+
     }
     .firstContent p{
        font-size: 0.8rem;
@@ -115,4 +118,7 @@
 	    font-size: 0.6rem!important;
 	    margin-top: 8px;
     } 
+	.textContent{
+		border-radius: 25px;
+	}
 }

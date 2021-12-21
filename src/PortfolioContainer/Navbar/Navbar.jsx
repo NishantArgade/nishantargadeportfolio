@@ -28,7 +28,7 @@ const Navbar = () => {
 							<div className="max-width">
 								<div className="logo"><a href="#home">NISHA<span>NT</span></a></div>
 								<ul className="menu" ref={ref} onClick={handleHambuger}>
-									<li><a href="#Home"  className="menu-btn active">Home</a></li>
+									<li><a href="#Home"  className="menu-btn activeHome">Home</a></li>
 									<li><a href="#about" className="menu-btn">AboutMe</a></li>
 									<li><a href="#resume" className="menu-btn">Resume</a></li>
 									<li><a href="#testimonial" className="menu-btn">Testimonial</a></li>

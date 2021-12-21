@@ -19,9 +19,14 @@
 	width: 100%;
 	background-color:var(--contactCardLeftBg);
 }
-
+.info{
+	margin-top: 3.6rem;
+}
+.info a{
+	word-break: break-all;
+}
 .contact-info{
-	padding: 2.3rem 2.2rem;
+	padding: 0.77rem 2rem;
 	position: relative;
 }
 .icon{
@@ -54,7 +59,7 @@
     margin-top: 0.5rem;
 }
 .social-media{
-	padding: 1rem 0  0 0;
+	padding: 3rem 0  0 0;
 }
 .social-media p{
 	color: #333;
@@ -129,7 +134,7 @@
 	left: -13px;
 }
 form{
-    padding: 2.3rem 2.2rem;
+    padding: 0.77rem 2rem;
 }
 .title{
 	color: #fff;
@@ -146,7 +151,7 @@ form{
 	outline: none;
 	border: 2px solid #fafafa;
 	background:none;
-	padding: 0.6rem 1.2rem;
+	padding: 0.4rem 1.2rem;
 	color: #fff;
 	font-weight: 500;
 	font-size: 0.95rem;
@@ -155,7 +160,7 @@ form{
 	transition: 0.3s;
 }
 textarea.input{
-	padding: 0.8rem 1.2rem;
+	padding: 0.4rem 1.2rem;
 	min-height: 150px;
 	border-radius: 22px;
 	resize: none;
@@ -179,7 +184,7 @@ textarea.input{
 	transform: translateY(0);
 }
 .sendBtn{
-	padding: 0.6rem 1.3rem;
+	padding: 0.4rem 1rem;
 	background-color: #fff;
 	border: 2px solid #fafafa;
 	font-weight: 700;

@@ -30,7 +30,7 @@
 }
 .Navbar .logo a{
     color: var(--navBrandClr);
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     font-weight: 600;
 	margin: 20px 0;
     text-decoration: none;
@@ -44,20 +44,20 @@
     list-style: none;
     display: inline-block;
 }
-.Navbar .menu li a{
+.activeHome{
+    color:var(--hoverLinkClr)!important;
+}
+.menu li a{
     text-decoration: none;
     display: block;
     color: var(--navLinkClr);
-    font-size: 1.1rem;
+    font-size: 0.98rem;
     font-weight: 600;
     margin-left: 35px;
     letter-spacing: 1.4px;
     transition: color 0.3s ease;
 }
-.active,.Navbar .menu li a:focus{
-    color:var(--hoverLinkClr)!important;
-}
-.Navbar .menu li a:hover{
+.menu li a:hover{
     color:var(--hoverLinkClr);
 }
 .modeBtn{

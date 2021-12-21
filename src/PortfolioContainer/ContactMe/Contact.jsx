@@ -64,19 +64,19 @@ const Contact = () => {
 				<div className='lineArrow'><img src={LineArrow} style={{ width: "260px" }} alt="" /></div>
 
 				<div className="row">
-					<div className="col-md-9 col-12 mx-auto">
+					<div className="col-md-9 col-col-12 mx-auto">
 						<div className="contact-parenet">
 							<div className="contact-info-sec">
 								<div className="contact-info">
 									<h3 className='title'>Let's get in touch</h3>
 									<p className='text'>
 										You can Hire me or if you want to ask somthing to me then message me here.
-										Keep in touch me. 
+										Keep in touch me.
 									</p>
 									<div className="info">
 										<div className="information">
 											<i className="fas fa-map-marked-alt icon" ></i>
-											<a  href='https://goo.gl/maps/6zj5w5pA7seZLqN47' target="_blank" rel="noreferrer">Kalus,Pune Maharashtra</a>
+											<a href='https://goo.gl/maps/6zj5w5pA7seZLqN47' target="_blank" rel="noreferrer">Kalus,Pune Maharashtra</a>
 										</div>
 										<div className="information">
 											<i className="fas fa-envelope icon" ></i>
@@ -145,7 +145,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				</div>
+			</div>
 		</>
 	)
 }

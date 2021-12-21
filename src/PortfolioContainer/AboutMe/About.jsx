@@ -21,8 +21,8 @@ const About = () => {
 				<div className='lineArrow'><img src={LineArrow} style={{ width: "260px" }} alt="" /></div>
 
 				<div className="row">
-					<div className="col-md-9 col-12 mx-auto">
-
+					<div className="col-md-9 col-col-12 mx-auto">
+						
 						<div className="aboutMeDiv">
 							<div className='imgDiv'>
 								<img src={nishantAboutMePic} alt="" />
@@ -46,11 +46,10 @@ const About = () => {
 									</a>
 								</div>
 							</div>
-						</div>
 
+						</div>
 					</div>
 				</div>
-
 			</div>
 		</>
 	)

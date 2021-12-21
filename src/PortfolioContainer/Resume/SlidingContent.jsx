@@ -6,7 +6,7 @@ const SlidingContent = (props) => {
 		<>
 			<div className="bullets-details " style={{ transform: `translateY(${props.val}px)` }}>
 
-				<div className='education-container'>
+				<div className='common-container'>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>Graduation</p>
@@ -30,7 +30,7 @@ const SlidingContent = (props) => {
 					</div>
 				</div>
 
-				<div className='workHistory-container'>
+				<div className='common-container'>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>Microsoft</p>
@@ -46,7 +46,7 @@ const SlidingContent = (props) => {
 					</div>
 				</div>
 
-				<div className='programingSkill-container'>
+				<div className='common-container'>
 					<div className="programingSkill-blocks-div">
 						<div className='skillBlock'>
 							<p >JavaScript</p>
@@ -110,7 +110,7 @@ const SlidingContent = (props) => {
 
 				</div>
 
-				<div className='projects-container'>
+				<div className='common-container'>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>Personal Portfolio Website</p>
@@ -134,7 +134,7 @@ const SlidingContent = (props) => {
 					</div>
 				</div>
 
-				<div className='interests-container'>
+				<div className='common-container'>
 					<div className="education-block">
 						<div className='headings'>
 							<p className='primaryPara'>Painting</p>
