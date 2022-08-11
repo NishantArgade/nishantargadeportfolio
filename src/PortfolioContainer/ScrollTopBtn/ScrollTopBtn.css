@@ -1,0 +1,39 @@
+#scrollBtn {
+	position: fixed;
+	bottom: 1.8rem;
+	right: 1.8rem;
+	z-index: 10000;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(255, 0, 0, 0.493);
+	cursor: pointer;
+	padding: 15px;
+	
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	color: white;
+	opacity: 0.2;
+    transition: all 0.4s;
+}
+#scrollBtn:hover{
+	  background-color: rgba(255, 0, 0, 0.966);
+  }
+  .arrow{
+	  font-size: 1.2rem;
+	  animation: upDown 1s infinite ease-in-out alternate;
+  }
+  
+  @keyframes upDown{
+	  0%{
+         transform: translateY(-7px);
+	  }
+	  100%{
+         transform: translateY(1px);
+	  }
+  }

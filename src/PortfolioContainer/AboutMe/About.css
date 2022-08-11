@@ -1,0 +1,124 @@
+#about{
+    width: 100%;
+    height: auto;
+	margin-bottom: 4rem;
+}
+#about p,#about li,#about h6{
+	color: var(--textClr);
+}
+.aboutMeDiv{
+	height:auto;
+	margin: 2rem 0;
+	box-shadow: var(--boxShadow);
+	border-radius: 25px;
+}
+.imgDiv img{
+    height: 35.3rem;
+    border-radius: 25px 0 0 25px;
+}
+.aboutMeDiv{
+	display: flex;
+}
+.lineArrow{
+	text-align: center;
+}
+ .firstContent{
+	text-align: justify;
+	padding-bottom: 2rem;
+}
+.secondContent{
+	padding-bottom: 1rem;
+}
+.secondContent>h6{
+	font-size: 1.2rem!important;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.secondContent  li{
+	list-style: none;
+	line-height: 0.5rem;
+	padding:auto 0;
+}
+.secondContent li::before{
+	content: ".";
+	color: red;
+	font-size: 4rem;
+	font-weight:bold;
+	display: inline-block; 
+	width: 0.3em;	
+}
+.textContent{
+	display: flex;
+	flex-direction: column;
+	padding: 1.8rem ;
+	background-color: var(--aboutMeCardBg);
+	border-radius: 0 25px 25px 0;
+}
+.aboutMe-options .primary-btn,  .aboutMe-options .highlighted-btn{
+	width: 100% !important;
+	padding: 10px 0!important;
+	margin-left: 0!important;
+	font-size: 0.76rem!important;
+	margin-top: 20px;
+}
+.aboutMe-options{
+	margin-top: auto;
+}
+
+/* ----------- Responsivness ---------- */
+
+@media screen and (max-width:1608px) {
+	.imgDiv img{
+		display: none;
+	}
+	.textContent{
+		padding: 2rem;
+		border-radius: 25px;
+	}
+}
+@media screen and (max-width:416px){
+
+    .textContent{
+       padding: 2rem 1rem;
+	   border-radius: 25px;
+
+    }
+    .firstContent p{
+       font-size: 0.8rem;
+    }
+    .secondContent h6{
+       font-size: 1rem!important;
+    }
+    .secondContent li{
+       font-size: 0.8rem;
+    }
+    .aboutMe-options .primary-btn,  .aboutMe-options .highlighted-btn{
+       width: 100% !important;
+       padding: 10px 0!important;
+       margin-left: 0!important;
+       font-size: 0.76rem!important;
+       margin-top: 10px;
+    } 
+}
+@media screen and (max-width:300px){
+	.firstContent p{
+		font-size: 0.7rem;
+	}
+    .secondContent h6{
+	    font-size: 0.8rem!important;
+    }
+    .secondContent li{
+	    font-size: 0.63rem;
+	    line-height: 1px;
+    }
+    .aboutMe-options .primary-btn,  .aboutMe-options .highlighted-btn{
+	    width: 100% !important;
+	    padding: 8px 0!important;
+	    margin-left: 0!important;
+	    font-size: 0.6rem!important;
+	    margin-top: 8px;
+    } 
+	.textContent{
+		border-radius: 25px;
+	}
+}

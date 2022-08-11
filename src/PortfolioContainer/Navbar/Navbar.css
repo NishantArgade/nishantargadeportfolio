@@ -1,0 +1,142 @@
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.menu{
+	margin:auto 0;
+	padding:auto 0;
+}
+.Navbar{
+    height: 15vh;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar{
+    background: var(--navbarBg);
+}
+.Navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar .logo a{
+    color: var(--navBrandClr);
+    font-size: 2.4rem;
+    font-weight: 600;
+	margin: 20px 0;
+    text-decoration: none;
+    font-family: "Poppins Bold";
+}
+.Navbar .logo a span{
+    color: var(--brandNameClr);
+    transition: all 0.3s ease;
+}
+.Navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.activeHome{
+    color:var(--hoverLinkClr)!important;
+}
+.menu li a{
+    text-decoration: none;
+    display: block;
+    color: var(--navLinkClr);
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-left: 35px;
+    letter-spacing: 1.4px;
+    transition: color 0.3s ease;
+}
+.menu li a:hover{
+    color:var(--hoverLinkClr);
+}
+.modeBtn{
+  position: relative;
+   font-size: 1.1rem;
+  right: 30px;
+  color: var(--modeIconClr);
+}
+
+/* ------- Navbar Responsive media query -------------- */
+@media screen and (max-width:1110px ){
+    .Navbar .menu li a{
+        font-size: 1rem;
+        margin-left: 1.2rem;
+    }
+    .Navbar .logo a{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:947px ){
+    .Navbar{
+    justify-content: space-between;
+    }
+    .Navbar .menu li a{
+        color: #fff;
+    }
+    .Navbar .logo a{
+        font-size: 1.5rem;
+    }
+	.menu-btn{
+        display: block;
+        z-index: 999;
+		margin-left: auto;
+    }
+	
+    .menu-btn i.active:before{
+        content: "\f00d";
+        position: absolute;
+        top:22px;
+        right: 46px;
+    }
+    .Navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        z-index: 999;
+        background: var(--menuBg) ;
+        text-align: center;
+        padding: 5rem 0;
+        transition: all 0.3s ease;
+        
+    }
+    .stop-scrolling {
+        height: 100%;
+        overflow: hidden;
+      }
+    .Navbar .menu.active{
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.788);
+        transition:all 0.8s ease-out;
+
+    }
+    .Navbar .menu li{
+        display: block;
+    }
+    .Navbar .menu li a{
+        display: inline-block;
+        margin: 1.4rem 0;
+        font-size: 20px;
+    }
+    .modeBtn{
+        position: relative;
+        right: 4rem;
+       
+    }
+    .modeOff{
+        display: none;
+      
+    }
+}

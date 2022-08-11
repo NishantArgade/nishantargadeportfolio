@@ -1,0 +1,181 @@
+:root{
+  
+  --orange: #F57F17;
+  --dark-orange: #FF5823;
+  --white: #ffffff;
+  --black: #333333;
+  
+    --bgColor: #fff ;
+    --navbarBg:#a0f1d9 ;
+    --profileBg:linear-gradient(#a0f1d9 , #43d699);
+	  --profileFooterCurveBg:#43d699;
+    --footerCurveDownClr:#fff;
+    --menuBg:rgb(155, 224, 221);
+    --carouselCardBg:#fff;
+    --aboutMeCardBg:#fff;
+    --resumeCardBg:#fff;
+    --resumeBulletBg:#1f2235;
+    --contactCardLeftBg:#fff;
+    --footerBg:rgb(29, 28, 28);
+    --copyrightBg:#111;
+    
+    --modeIconClr:rgb(12, 82, 129);
+    --socialMediaIconClr:rgb(58, 56, 58);
+    --primaryTextClr:#111;
+    --navLinkClr:#1f2235;
+    --navBrandClr:#111;
+    --profilePicShadowClr:rgb(14, 128, 122);
+    --highlightedTextClr:#FF5823;
+    --profileDescription:rgb(8, 8, 8);
+    --typicalTextClr:#1f2235;
+    --mainContainerHeading:#111;
+    --textClr:#111;
+    --brandNameClr:#FF5823;
+    --hoverLinkClr:#FF5823;
+    --boxShadow:0px 0px 18px 4px rgb(92, 92, 92);
+    --container-subHeadingClr:rgb(87, 85, 85);
+    --footerTextClr:#999;
+    --contactInfoTextClr:rgb(36, 36, 36);
+
+}
+
+
+
+@font-face {
+  font-family: "Balsamiq Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/BalsamiqSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Balsamiq Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/BioRhyme-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Thin.ttf");
+}
+
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  /* overflow-y: overlay; */
+  font-family: "Poppins Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 95%;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.red-border {
+  border: 1px solid var(--error-message) !important;
+}
+
+.mainContainer-heading{
+	font-size: 1.70rem;
+  text-align: center;
+  font-family: "Poppins Bold";
+  padding-top: 0.4rem;
+  color: var(--mainContainerHeading);
+}
+.mainContainer-subHeading{
+  color:var(--container-subHeadingClr)!important;
+  font-size: 0.89rem;
+  text-align: center;
+	margin: 0.9rem 0;
+	letter-spacing: 1.7px;
+}
+.lineArrow{
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px){
+  .mainContainer-heading{
+    font-size: 1.69rem;
+  }
+}
+

@@ -1,0 +1,45 @@
+#home{
+	width: 100%;
+	height: auto;
+}
+
+.dark-mode{
+	/* --profileBg: #1f2235 ; */
+	
+	--bgColor: #111 ;
+	--navbarBg:#0b9b8f ;
+    --profileBg:linear-gradient(#0b9b8f , #025851);
+	--profileFooterCurveBg:#025851;
+	--menuBg:#1f2235;
+	--carouselCardBg:#427575;
+	--aboutMeCardBg:#10554c;
+	--resumeCardBg:#10554c;
+	--resumeBulletBg:#15c095;
+	--contactCardLeftBg:#10554c;
+    --footerBg:#232c2e;
+	--copyrightBg:#181f20;
+	
+	--mainContainerHeading:#fff;
+	--footerCurveDownClr:#111;
+	--modeIconClr:rgb(255, 255, 255);
+	--navBrandClr:#ffff;
+	--navLinkClr:#ffff;
+	--socialMediaIconClr:rgba(13, 27, 49, 0.774);
+	--primaryTextClr:#fff;
+	--profilePicShadowClr:#fff;
+    --profileDescription:#fff;
+	--typicalTextClr:#c8f3ea;
+	--textClr:#fff;
+	--footerTextClr:rgb(192, 190, 190);
+	--highlightedTextClr:#6afaf3;
+	--brandNameClr:#6afaf3;
+	--hoverLinkClr:#6afaf3;
+	--boxShadow:"none";
+	--container-subHeadingClr:rgb(158, 156, 156);
+	--contactInfoTextClr:rgb(231, 229, 229);
+	
+}
+
+#root{
+	background-color: var(--bgColor);
+}
